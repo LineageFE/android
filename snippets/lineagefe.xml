@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="mtg"
+           fetch="https://gitlab.com/MindTheGapps"
+           revision="refs/heads/upsilon" />
+           
+  <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="mtg" />
+
+  <!-- AOSP Projects Modified -->
+  <project path="bootable/recovery" name="LineageFE/android_bootable_recovery" groups="pdk" />
+  <project path="frameworks/base" name="LineageFE/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project path="packages/apps/Settings" name="LineageFE/android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/Trebuchet" name="LineageFE/android_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio" />
+  <project path="system/core" name="LineageFE/android_system_core" groups="pdk" />
+  <project path="packages/apps/Updater" name="LineageFE/android_packages_apps_Updater" />
+
+  <!-- LineageOS Additions Modified -->
+  <project path="android" name="LineageFE/android" />
+  <project path="vendor/lineage" name="LineageFE/android_vendor_lineage" />
+  <project path="packages/overlays/Lineage" name="LineageFE/android_packages_overlays_Lineage" />
+  <project path="packages/apps/ParanoidSense" name="LineageFE/android_packages_apps_ParanoidSense" />
+  <project path="vendor/lineage-priv/keys" name="LineageFE/android_vendor_lineage-priv_keys" />
+  <project path="hardware/xiaomi" name="LineageFE/android_hardware_xiaomi" />
+
+</manifest>
