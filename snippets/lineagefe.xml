@@ -13,6 +13,7 @@
   <project path="packages/apps/Trebuchet" name="LineageFE/android_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio" />
   <project path="system/core" name="LineageFE/android_system_core" groups="pdk" />
   <project path="packages/apps/Updater" name="LineageFE/android_packages_apps_Updater" />
+  <project path="frameworks/native" name="LineageFE/android_frameworks_native" groups="pdk" />
 
   <!-- LineageOS Additions Modified -->
   <project path="android" name="LineageFE/android" />
