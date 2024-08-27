@@ -21,6 +21,8 @@
   <project path="packages/overlays/Lineage" name="LineageFE/android_packages_overlays_Lineage" />
   <project path="packages/apps/ParanoidSense" name="LineageFE/android_packages_apps_ParanoidSense" />
   <project path="vendor/lineage-priv/keys" name="LineageFE/android_vendor_lineage-priv_keys" />
+  <project path="packages/apps/F-DroidPrivilegedExtension" name="LineageFE/android_packages_apps_F-DroidPrivilegedExtension" />
   <project path="hardware/xiaomi" name="LineageFE/android_hardware_xiaomi" />
+  <project path="vendor/F-Droid" name="LineageFE/android_vendor_F-Droid" />
 
 </manifest>
